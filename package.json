@@ -1,0 +1,25 @@
+{
+  "name": "har-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "Kevin Farrugia",
+    "email": "hello@imkev.dev",
+    "url": "https://github.com/kevinfarrugia"
+  },
+  "main": "./lib/main.js",
+  "bin": {
+    "svgo": "./bin/svgo"
+  },
+  "scripts": {
+    "start": "node ./lib/main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
