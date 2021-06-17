@@ -3,7 +3,9 @@
 const { red } = require("chalk");
 const { program } = require("commander");
 const makeProgram = require("../lib/coa");
+
 makeProgram(program);
+
 program.parseAsync(process.argv).catch((error) => {
   console.error(red(error.stack));
   process.exit(1);
