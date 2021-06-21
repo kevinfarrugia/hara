@@ -25,9 +25,6 @@
       "git add --force"
     ]
   },
-  "scripts": {
-    "start": "node ./lib/main.js"
-  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
