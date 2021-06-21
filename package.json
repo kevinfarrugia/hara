@@ -1,6 +1,6 @@
 {
   "name": "hara",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Node.js-based tool for identifying performance issues on HAR files.",
   "repository": {
     "type": "git",
