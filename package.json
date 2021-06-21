@@ -15,6 +15,10 @@
   "bin": {
     "hara": "./bin/hara"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "lint-staged": {
     "*.js": [
       "eslint --no-ignore --fix",
