@@ -42,6 +42,58 @@ See help for advanced usage
 hara --help
 ```
 
+## Sample Output
+
+### JSON
+
+```json
+"script": {
+  "noOfRequests": 209,
+  "medianTime": 63,
+  "ninetyFifthTime": 369,
+  "medianTimings": {
+    "blocked": 2,
+    "wait": 41,
+    "receive": 3
+  },
+  "ninetyFifthTimings": {
+    "blocked": 34,
+    "wait": 305,
+    "receive": 49
+  },
+  "bytesTransferred": 2588789,
+  "topUrl": {
+    "url": "https://api.bounceexchange.com/bounce/reloadCampaigns.js",
+    "noOfOccurrences": 9
+  },
+  "largest": {
+    "url": "https://example.com/assets/main.15d4611c9e8a420327bf.js",
+    "bytes": 1497777
+  },
+  "largestCompressed": {
+    "url": "https://example.com/assets/main.15d4611c9e8a420327bf.js",
+    "bytesTransferred": 331677
+  },
+  "longest": {
+    "url": "https://cdn.speedcurve.com/js/lux.js",
+    "time": 600,
+    "timings": {
+      "blocked": 48,
+      "wait": 545,
+      "receive": 1,
+      "connect": -1
+    }
+  }
+}
+```
+
+### CSV
+
+The CSV output could be placed in a chart using Google Sheets or Excel.
+
+![Transfer Size](https://user-images.githubusercontent.com/8075326/122784992-40054c00-d2b3-11eb-8df8-97d4c6a15313.png)
+
+
 ## License and Copyright
 
 This software is released under the terms of the [MIT license](https://github.com/kevinfarrugia/hara/blob/main/LICENSE).
