@@ -94,6 +94,23 @@ The CSV output could be placed in a chart using Google Sheets or Excel.
 ![Transfer Size](https://user-images.githubusercontent.com/8075326/122784992-40054c00-d2b3-11eb-8df8-97d4c6a15313.png)
 
 
+## HAR files
+
+You may record a HAR file from your browser or from WebPageTest.
+
+_Disclaimer: Note that HAR files may contain sensitive data. **hara** does not store or share any content processed._
+
+### Google Chrome
+
+- Open **Developer Tools**
+- Select the **Network Tab**
+- Right click anywhere in the panel and select **Save all as HAR with content**
+
+### WebPageTest
+
+- Go to [webpagetest.org](https://webpagetest.org) and run a test against your webpage.
+- Once the test has completed, on the Summary page click on **Export HTTP Archive (.har)**
+
 ## License and Copyright
 
 This software is released under the terms of the [MIT license](https://github.com/kevinfarrugia/hara/blob/main/LICENSE).
