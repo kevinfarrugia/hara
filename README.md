@@ -98,18 +98,21 @@ The CSV output could be placed in a chart using Google Sheets or Excel.
 
 You may record a HAR file from your browser or from WebPageTest.
 
-_Disclaimer: Note that HAR files may contain sensitive data. **hara** does not store or share any content processed._
-
 ### Google Chrome
 
 - Open **Developer Tools**
 - Select the **Network Tab**
 - Right click anywhere in the panel and select **Save all as HAR with content**
 
+![Save all as HAR with content](https://user-images.githubusercontent.com/8075326/123086267-7cf05080-d423-11eb-9bb9-24bc213d8d25.gif)
+
 ### WebPageTest
 
 - Go to [webpagetest.org](https://webpagetest.org) and run a test against your webpage.
 - Once the test has completed, on the Summary page click on **Export HTTP Archive (.har)**
+
+![Export HTTP Archive (.har)](https://user-images.githubusercontent.com/8075326/123086190-6944ea00-d423-11eb-99e2-54a73b12a25f.jpg)
+
 
 ## License and Copyright
 
